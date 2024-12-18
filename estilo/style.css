@@ -21,7 +21,8 @@ header {
     color: white;
     padding: 50px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-variant: small-caps;
 }
 
 body {
@@ -55,10 +56,12 @@ section.imagem, section.normal {
 section.imagem {
     background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.514);
     width: 400px;
     padding-left: 5px;
     
@@ -69,6 +72,13 @@ section#img {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 5px;
+    text-align: center;
 }
 
 
