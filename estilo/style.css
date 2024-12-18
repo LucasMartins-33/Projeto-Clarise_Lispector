@@ -19,9 +19,9 @@ header {
     font-family: var(--fonte-titulo);
     background-color: rgba(0, 0, 0, 0.884);
     color: white;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 body {
