@@ -36,8 +36,16 @@ img {
     width: 100%;
 }
 
-section > p {
+section#texto > p {
     text-indent: 30px;
+}
+
+section.poema01 {
+    font-family:var(--fonte-poema);
+}
+
+section.poema02 {
+    font-family: var(--fonte-poema);
 }
 
 
